@@ -1,0 +1,13 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Thu Jul  4 17:06:29 2019"
+  rime_version: 1.5.3
+patch:
+  "style/color_scheme": ink
+  "style/font_point": 12
+  "style/inline_preedit": true
+  "app_options/terminus.exe/ascii_mode": true
+  "app_options/mintty.exe/ascii_mode": true
+  "app_options/conemu64.exe/ascii_mode": true

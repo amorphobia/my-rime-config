@@ -1,0 +1,8 @@
+patch:
+  # translator/enable_completion: true
+  # custom_phraseXT/enable_completion: true
+  # custom_phraseVD/enable_completion: true
+  # custom_phraseYH/enable_completion: true
+  key_binder:
+    import_preset: default
+  style/horizontal: false

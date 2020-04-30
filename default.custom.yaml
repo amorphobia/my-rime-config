@@ -1,0 +1,24 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Fri Jul 12 09:38:15 2019"
+  rime_version: 1.5.3
+patch:
+  schema_list:
+    - {schema: flypy}
+    - {schema: luna_pinyin}
+    - {schema: japanese}
+  "switcher/hotkeys":
+    - "Control+Shift+space"
+  ascii_composer/switch_key/Shift_L: commit_code
+  ascii_composer/switch_key/Shift_R: Shift_L
+  "key_binder/bindings":
+    - {accept: semicolon, send: 2, when: has_menu} #分号次选
+    - {accept: bracketleft, send: Page_Up, when: paging} # [上翻页
+    - {accept: bracketright, send: Page_Down, when: has_menu} # ]下翻页
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: Shift+space, select: .next, when: always}
+    - {accept: Control+comma, toggle: full_shape, when: always}
+    - {accept: Control+period, toggle: ascii_punct, when: always}

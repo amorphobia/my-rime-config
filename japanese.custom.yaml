@@ -1,0 +1,18 @@
+patch:
+  key_binder:
+    import_preset: default
+  engine/translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+    - table_translator@custom_phrase_user
+    - script_translator@putonghua_to_kanji_lookup
+    - script_translator@hannom_lookup
+    - script_translator@hanja_lookup
+  custom_phrase_user:
+    dictionary: ""
+    user_dict: japanese_user
+    db_class: stabledb
+    enable_sentence: false
+    enable_completion: true
+    initial_quality: 0
