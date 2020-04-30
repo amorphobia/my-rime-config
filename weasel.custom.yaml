@@ -5,3 +5,4 @@ patch:
   "app_options/terminus.exe/ascii_mode": true
   "app_options/mintty.exe/ascii_mode": true
   "app_options/conemu64.exe/ascii_mode": true
+  "app_options/windowsterminal.exe/ascii_mode": true
