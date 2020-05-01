@@ -5,8 +5,13 @@ patch:
     - {schema: japanese}
   "switcher/hotkeys":
     - "Control+Shift+space"
-  ascii_composer/switch_key/Shift_L: commit_code
-  ascii_composer/switch_key/Shift_R: Shift_L
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: commit_code
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
   "key_binder/bindings":
     - {accept: semicolon, send: 2, when: has_menu} #分号次选
     - {accept: bracketleft, send: Page_Up, when: paging} # [上翻页
