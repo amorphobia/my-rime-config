@@ -1,0 +1,6 @@
+patch:
+  key_binder:
+    import_preset: default
+    bindings:
+      - {accept: minus, send: minus, when: has_menu}
+      - {accept: equal, send: equal, when: has_menu}
