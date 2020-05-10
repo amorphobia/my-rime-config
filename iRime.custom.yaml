@@ -204,44 +204,43 @@ patch:
           swipe_up_label: ？
           swipe_up: ？
           click: x
-      - c: &a
+      - c:
           swipe_down_label: ','
           upper_label: C
           swipe_down: ','
           lower_label: c
-          swipe_up_label: ，
-          swipe_up: ，
+          swipe_up_label: '@'
+          swipe_up: '@'
           click: c
-        确认修改: *a
       - v:
           swipe_down_label: '.'
           upper_label: V
           swipe_down: '.'
           lower_label: v
-          swipe_up_label: 。
-          swipe_up: 。
+          swipe_up_label: 'ˉ'
+          swipe_up: '-'
           click: v
       - b:
           swipe_down_label: '%'
           upper_label: B
           swipe_down: '%'
           lower_label: b
-          swipe_up_label: '@'
-          swipe_up: '@'
+          swipe_up_label: 'ˆ'
+          swipe_up: '<'
           click: b
       - 'n':
-          swipe_down_label: /
+          swipe_down_label: '：'
           upper_label: 'N'
-          swipe_down: /
+          swipe_down: '：'
           lower_label: 'n'
-          swipe_up_label: /
-          swipe_up: /
+          swipe_up_label: 'ˋ'
+          swipe_up: '\'
           click: 'n'
       - m:
           swipe_down_label: ':'
           upper_label: M
           swipe_down: ':'
           lower_label: m
-          swipe_up_label: ：
-          swipe_up: ：
+          swipe_up_label: 'ˊ'
+          swipe_up: '/'
           click: m
