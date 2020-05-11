@@ -4,3 +4,5 @@ patch:
     bindings:
       - {accept: minus, send: minus, when: has_menu}
       - {accept: equal, send: equal, when: has_menu}
+      - {accept: semicolon, send: semicolon, when: has_menu} # 恢复分号输入阴平
+      # - {accept: period, send: 2, when: has_menu} # 句号次选
