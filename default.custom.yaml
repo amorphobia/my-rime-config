@@ -23,3 +23,4 @@ patch:
     - {accept: Shift+space, select: .next, when: always}
     - {accept: Control+comma, toggle: full_shape, when: always}
     - {accept: Control+period, toggle: ascii_punct, when: always}
+    - {accept: Control+semicolon, toggle: simplification, when: always}

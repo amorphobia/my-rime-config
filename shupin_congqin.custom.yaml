@@ -1,8 +1,16 @@
 patch:
-  key_binder:
-    import_preset: default
-    bindings:
-      - {accept: minus, send: minus, when: has_menu}
-      - {accept: equal, send: equal, when: has_menu}
-      - {accept: semicolon, send: semicolon, when: has_menu} # 恢复分号输入阴平
-      # - {accept: period, send: 2, when: has_menu} # 句号次选
+  key_binder/bindings/+:
+    - {accept: semicolon, send: semicolon, when: has_menu} # 恢复分号输入阴平
+  # 以下设置本意是使用句号输入第三声，但是会导致数字不能选词，因此暂时注释掉
+  # speller/alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>.\'
+  # speller/algebra/+:
+  #   - 'derive/^(.*)\\$/$1\./'    #\可以用.輸入
+  # 'translator/preedit_format/+':
+  #   - 'xform io\. iò'
+  #   - xform (u?|v?|i?)(eo|ui|iu|a|i|u|e|o|v)(i?|o?|u?|n?|ng?|r?)([\.]) $1$2$4$3
+  #   - 'xform a\. à'
+  #   - 'xform e\. è'
+  #   - 'xform o\. ò'
+  #   - 'xform i\. ì'
+  #   - 'xform u\. ù'
+  #   - 'xform ü\. ǜ'
