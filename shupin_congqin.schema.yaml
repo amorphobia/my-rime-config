@@ -205,6 +205,8 @@ translator:
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
     - xform/^nv/lv/
+    - xform/^lv2/lu2/
+    - xform/^lv4/lui4/
     - xform/^zyi/ji/    #zyi>ji
     - xform/^cyi/qi/    #cyi>qi
     - xform/^syi/xi/    #syi>xi
