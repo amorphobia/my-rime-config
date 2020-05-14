@@ -103,6 +103,8 @@ speller:
 #泥來部分
     - xform/^ni/li/	#啓用此行表示ni, ni->li, li-
     - xform/^nv/lv/
+    - xform/^lv2/lu2/
+    - xform/^lv4/lui4/
 #    - xform/^ni/y/	#啓用此行表示ni->y-
 #    - xform/^ni([12345])$/yi$1/	#啓用此行表示ni>yi
 
@@ -153,7 +155,8 @@ translator:
     - 'xform io[<,] iô'
     - 'xform io[>\\] iò'
     - 'xform ioq iǒ'
-    - xform (u?|v?|i?)(eo|ui|iu|a|i|u|e|o|v)(i?|o?|u?|n?|ng?|r?)([-;/<,>\\q]) $1$2$4$3
+    - xform (u?|v?|i?)(eo|ui|iu|a|i|u|e|o)(i?|o?|u?|n?|ng?|r?)([-;/<,>\\q]) $1$2$4$3
+    - xform (v)(n)([-;/<,>\\q]) $1$3$2
     - 'xform a[-;] ā'
     - 'xform a/ á'
     - 'xform a[<,] â'
@@ -174,6 +177,7 @@ translator:
     - 'xform i[<,] î'
     - 'xform i[>\\] ì'
     - 'xform iq ǐ'
+    - xform/([jqxy])v/$1u/
     - 'xform u[-;] ū'
     - 'xform u/ ú'
     - 'xform u[<,] û'
@@ -187,7 +191,6 @@ translator:
     - 'xform v ü'
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
   comment_format:
     #針對重慶音系
     - xform/Ddi/le/ #的字讀音
