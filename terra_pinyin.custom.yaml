@@ -1,0 +1,3 @@
+patch:
+  key_binder/bindings/+:
+    - {accept: semicolon, send: semicolon, when: has_menu} # 恢复分号输入阴平

@@ -1,26 +1,26 @@
 patch:
+  "ascii_composer/good_old_caps_lock": true
+  "ascii_composer/switch_key":
+    Caps_Lock: noop
+    Control_L: noop
+    Control_R: noop
+    Shift_L: commit_code
+    Shift_R: noop
+  "key_binder/bindings":
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: bracketleft, send: Page_Up, when: paging}
+    - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: "Shift+space", select: .next, when: always}
+    - {accept: "Control+comma", toggle: full_shape, when: always}
+    - {accept: "Control+period", toggle: ascii_punct, when: always}
+    - {accept: "Control+semicolon", toggle: simplification, when: always}
   schema_list:
     - {schema: flypy}
-    - {schema: luna_pinyin}
     - {schema: japanese}
     - {schema: shupin_congqin}
+    - {schema: terra_pinyin}
   "switcher/hotkeys":
     - "Control+Shift+space"
     - "Alt+space"
-  ascii_composer/good_old_caps_lock: true
-  ascii_composer/switch_key:
-    Caps_Lock: noop
-    Shift_L: commit_code
-    Shift_R: noop
-    Control_L: noop
-    Control_R: noop
-  "key_binder/bindings":
-    - {accept: semicolon, send: 2, when: has_menu} #分号次选
-    - {accept: bracketleft, send: Page_Up, when: paging} # [上翻页
-    - {accept: bracketright, send: Page_Down, when: has_menu} # ]下翻页
-    - {accept: minus, send: Page_Up, when: has_menu}
-    - {accept: equal, send: Page_Down, when: has_menu}
-    - {accept: Shift+space, select: .next, when: always}
-    - {accept: Control+comma, toggle: full_shape, when: always}
-    - {accept: Control+period, toggle: ascii_punct, when: always}
-    - {accept: Control+semicolon, toggle: simplification, when: always}
