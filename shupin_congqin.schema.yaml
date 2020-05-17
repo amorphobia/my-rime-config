@@ -103,8 +103,6 @@ speller:
 #泥來部分
     - xform/^ni/li/	#啓用此行表示ni, ni->li, li-
     - xform/^nv/lv/
-    - xform/^lv2/lu2/
-    - xform/^lv4/lui4/
 #    - xform/^ni/y/	#啓用此行表示ni->y-
 #    - xform/^ni([12345])$/yi$1/	#啓用此行表示ni>yi
 
@@ -177,7 +175,7 @@ translator:
     - 'xform i[<,] î'
     - 'xform i[>\\] ì'
     - 'xform iq ǐ'
-    - xform/([jqxy])v/$1u/
+    - xform/([jqxy])v/$1u/ # jqxy 后的 ü 变 u 需要在给 u 标声调之前
     - 'xform u[-;] ū'
     - 'xform u/ ú'
     - 'xform u[<,] û'
@@ -205,8 +203,6 @@ translator:
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
     - xform/^nv/lv/
-    - xform/^lv2/lu2/
-    - xform/^lv4/lui4/
     - xform/^zyi/ji/    #zyi>ji
     - xform/^cyi/qi/    #cyi>qi
     - xform/^syi/xi/    #syi>xi
@@ -287,8 +283,6 @@ reverse_lookup:
     - xform/5($|(◎.+$))/2$1/   #啓用此行表示入派陽平
     - xform/^ni/li/ #啓用此行表示ni, ni->li, li-
     - xform/^nv/lv/
-    - xform/^lv2/lu2/
-    - xform/^lv4/lui4/
     - xform/^zyi/ji/    #zyi>ji
     - xform/^cyi/qi/    #cyi>qi
     - xform/^syi/xi/    #syi>xi
