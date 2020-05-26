@@ -6,3 +6,4 @@ patch:
   key_binder:
     import_preset: default
   style/horizontal: false
+  switches/@0/states: [ 中文, 西文 ]
