@@ -4,6 +4,7 @@ patch:
     inline_preedited_text_font_size: 40
     common_preedited_text_font_size: 14
     numberboard_font_size: 24
+    candidate_height_font_color: "0x909f9f"
   app_setting:
     is_text_replacement_on: false
     is_insert_symbol_auto_insert_candiate: true
