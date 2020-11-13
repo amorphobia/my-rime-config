@@ -24,6 +24,7 @@ use_preset_vocabulary: false
 🤫	eaj.安静
 🛂	eajm.安检
 🇪🇬	eajp.埃及
+🇲🇴	eamd.澳门
 🇴🇲	eamo.阿曼
 🦞	eaof.鳌
 💓	eaq.爱情
@@ -81,7 +82,8 @@ use_preset_vocabulary: false
 # eiu - “二传手”
 ➗	eiue.除
 🇰🇵	eixa.朝鲜
-🍊	eizv.橙子
+🍊	eiz.橙子
+🔨	eizv.锤子
 # ejd - “二季度”
 🥚	ejdv.鸡蛋
 🇰🇬	ejet.吉尔吉斯斯坦
@@ -129,6 +131,8 @@ use_preset_vocabulary: false
 🌹	emgw.玫瑰
 🇲🇦	emlg.摩洛哥
 🇲🇾	emly.马来西亚
+😜	emm.卖萌
+🐶	emmc.卖萌
 🚽	emt.马桶
 ⛵️	emtd.码头
 🐴	emtd.马头
@@ -176,6 +180,8 @@ use_preset_vocabulary: false
 🇹🇭	etgk.泰国
 🦶🏻	etiz.踢
 🇹🇯	etjt.塔吉克斯坦
+😛	etu.吐舌
+😝	etuq.吐舌
 # etw - “耳听为虚，眼见为实”
 💃🏻	etw.跳舞
 🕺🏻	etwp.跳舞
