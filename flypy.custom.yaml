@@ -7,3 +7,7 @@ patch:
     import_preset: default
   style/horizontal: false
   switches/@0/states: [ 中文, 西文 ]
+
+__patch:
+  - patch/+:
+      __include: xmoji:/patch

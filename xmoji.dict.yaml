@@ -1,0 +1,281 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# xmoji - 小鹤双拼 Emoji
+#
+# amorphobia <xuesongpeng.cn@gmail.com>
+#
+#
+#
+
+---
+name: xmoji
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+...
+🇦🇺	eady.澳大利亚
+🇦🇫	eafh.阿富汗
+❤️	eai.爱
+😘	eai.爱
+💗	eaip.爱
+💓	eaip.爱
+😍	eaip.爱
+🤫	eaj.安静
+🛂	eajm.安检
+🇪🇬	eajp.埃及
+🇴🇲	eamo.阿曼
+🦞	eaof.鳌
+💓	eaq.爱情
+👩‍❤️‍👨	eaq.爱情
+👩‍❤️‍💋‍👨	eaqx.爱情
+💗	eax.爱心
+❤️	eax.爱心
+🧡	eaxd.爱心
+🥰	eaxd.爱心
+🇵🇰	ebjt.巴基斯坦
+🧊	ebkd.冰
+🪕	ebvq.班卓琴
+👃🏻	ebzv.鼻子
+🌘	ecyk.残月
+🌏	edbq.东半球
+🍰	edg.蛋糕
+🧁	edg.蛋糕
+🇩🇪	edgk.德国
+# edgm - “二等公民”
+🎂	edgm.蛋糕
+🥚	edjv.蛋
+🌐	edqw.地球
+🦘	eduj.袋鼠
+🌤️	edy.多云
+⛅️	edy.多云
+☁️	edye.多云
+# eed - “额度”，eedj - “鹅蛋”
+👂🏻	eed.耳朵
+🇷🇺	eels.俄罗斯
+🇫🇷	efgk.法国
+⛵️	efiv.帆船
+😡	efjh.烦
+🇵🇭	eflb.菲律宾
+🌍	efvd.非洲
+🏠	efzv.房子
+👠	eggx.高跟鞋
+♟	egjq.国际象棋
+🎹	egqw.钢琴
+👏🏻	egvx.鼓掌
+👌🏻	ehc.好
+🆗	ehcn.好
+🇰🇷	ehgk.韩国
+🔥	ehod.火
+🐒	ehz.猴子
+🐵	ehzv.猴子
+🚗	eie.车
+🚘	eie.车
+🚙	eiea.车
+🎤	eig.唱歌
+✖️	eigq.乘
+😱	eij.吃惊
+😲	eijx.吃惊
+🚢	eirv.船
+# eiu - “二传手”
+➗	eiue.除
+🇰🇵	eixa.朝鲜
+🍊	eizv.橙子
+# ejd - “二季度”
+🥚	ejdv.鸡蛋
+🇰🇬	ejet.吉尔吉斯斯坦
+😲	ejkx.惊
+➖	ejmd.减
+⌨️	ejp.键盘
+🇰🇭	ejpv.柬埔寨
+🎸	ejtr.吉他
+🏠	ejx.家
+➕	ejxl.加
+🚭	ejyh.禁烟
+🌖	ekty.亏凸月
+😭	eku.哭
+😎	eku.酷
+😢	ekuk.哭
+😿	ekuk.哭
+🆒	ekuy.酷
+😄	ekx.开心
+😆	ekx.开心
+😃	ekxd.开心
+😺	ekxd.开心
+☺️	ekxd.开心
+🥳	ekxd.开心
+👖	ekz.裤子
+🥢	ekzv.筷子
+🌊	elh.浪
+🇺🇳	elhg.联合国
+🐺	elhq.狼
+🚢	eliv.轮船
+# els - “俄罗斯”
+🐉	els.龙
+👂🏻	elsl.聋
+🐲	elsu.龙
+# elt - “二郎腿”，“厄立特里亚”
+🐲	eltd.龙头
+🥱	elwt.累
+🦞	elxi.龙虾
+🐎	ema.马
+🐴	emav.马
+🐱	emc.猫
+🐈	emc.猫
+😺	emcq.猫
+🇺🇸	emgk.美国
+🇲🇳	emgu.蒙古
+🇲🇦	emlg.摩洛哥
+🇲🇾	emly.马来西亚
+🚽	emt.马桶
+⛵️	emtd.码头
+🐴	emtd.马头
+# emvd - “耳目众多”
+🌎	emv.美洲
+🇲🇽	emxg.墨西哥
+🌒	emyk.眉月
+🇿🇦	enfl.南非
+# eng - “恩公”
+🙁️	eng.难过
+😞	engz.难过
+😔	engz.难过
+😫	engz.难过
+🎃	engp.南瓜
+🇦🇶	enjm.南极
+🐦	enn.鸟
+🦜	ennp.鸟
+🆗	eok.OK
+👌🏻	eok.OK
+😯	eook.哦
+🍇	eptc.葡萄
+🇵🇹	epty.葡萄牙
+🚗	eqi.汽车
+🚘	eqia.汽车
+🧹	eqjd.清洁
+💰	eqmj.钱
+👎🏻	eqp.切
+🔪	eqpq.切
+☀️	eqta.晴天
+🎉	eqv.庆祝
+🎁	eqv.庆祝
+🎂	eqvp.庆祝
+🎀	eqvp.庆祝
+🎃	eqvp.庆祝
+# erb - “而不”，erba - “二八”
+🇯🇵	erb.日本
+# eri - “而成”，eriv - “耳垂”
+🌅	eri.日出
+# erl - “二楼”，erlc - “二老”
+🌄	erl.日落
+# erli - “而立”
+📅	erli.日历
+🇨🇭	eruu.瑞士
+🎷	esks.萨克斯
+🇹🇭	etgk.泰国
+🦶🏻	etiz.踢
+🇹🇯	etjt.塔吉克斯坦
+# etw - “耳听为虚，眼见为实”
+💃🏻	etw.跳舞
+🕺🏻	etwp.跳舞
+# eud - “二十多”
+⚡️	eud.闪电
+🌩️	eudl.闪电
+🎂	eurk.生日
+🌓	euxy.上弦月
+🇨🇳	evgk.中国
+# evru - “恩重如山”
+🧱	evr.砖
+🥡	ewmu.外卖
+🤝	ewup.握手
+😊	ewx.微笑
+😃	ewx.微笑
+⚠️	ewxe.危险
+🩰	ewxg.舞鞋
+😁	ewxv.微笑
+😄	ewxv.微笑
+😸	ewxv.微笑
+💖	exb.心
+💕	exb.心
+❤️	exbd.心
+🆕	exbl.新
+🌎	exbq.西半球
+🇪🇸	exby.西班牙
+🇭🇰	exgd.香港
+🎺	exhk.小号
+🇸🇬	exjp.新加坡
+🤣	exk.笑哭
+😂	exkk.笑哭
+🌟	exko.星
+😊	exn.笑
+😄	exn.笑
+🦉	exnp.枭
+😆	exnv.笑
+😃	exnv.笑
+😼	exnv.笑
+👟	exp.鞋
+👠	expg.鞋
+🩰	expg.鞋
+🩸	expp.血
+⛄️	exr.雪人
+☃️	exrp.雪人
+❄️	ext.雪
+🎻	extq.小提琴
+✨	exx.星星
+🪐	exxi.行星
+⭐️	exxo.星星	70
+🌟	exxo.星星
+🦧	exxq.猩猩	50
+🦍	exxq.猩猩
+🌨️	exxy.下雪	90
+❄️	exxy.下雪	10
+🌗	exxy.下弦月	50
+# exy - “二选一”
+☔️	exy.下雨
+🌧️	exya.下雨
+🌇	exye.夕阳
+🚬	exyh.吸烟
+🌑	exyk.新月	90
+👢	exz.靴子
+✍🏻	exzb.写字
+🥿	exzv.鞋子
+🦂️	exzv.蝎子
+🦷	eyaa.牙
+🥮	eybu.月饼
+🇮🇳	eydg.印度
+🇮🇹	eydl.意大利
+# eyf - “二月份”
+🎵	eyf.音符
+🎶	eyfv.音符
+🇬🇧	eygk.英国
+🦷	eyiv.牙齿
+👀	eyj.眼睛
+🚬	eyjh.烟
+👓	eyjj.眼镜
+👁️	eyjo.眼睛
+🧂	eyjt.盐
+🇮🇷	eyld.伊朗
+🌛	eylw.月亮	70
+🌙	eylw.月亮	90
+🌝	eylw.月亮	50
+🌜	eylw.月亮	10
+🇻🇳	eynu.越南
+🪕	eyqk.乐器
+🌕	eyqw.月球
+# eyt - “二一添作五”
+☁️	eyt.阴天
+🌥️	eyta.阴天
+⛅️	eyta.阴天
+🌔	eyty.盈凸月
+🌦️	eyu.雨
+⛈️	eyu.雨
+🌧️	eyua.雨
+🌏	eyvd.亚洲
+💊	eywp.药丸
+🎵	eyy.音乐
+🎷	eyy.音乐
+🎶	eyyp.音乐
+🎸	eyyp.音乐
+🎹	eyyp.音乐
+👄	ezbv.嘴巴
+# ezj - “恶作剧”
+👍🏻	ezjn.赞
