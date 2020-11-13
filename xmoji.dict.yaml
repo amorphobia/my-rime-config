@@ -58,7 +58,8 @@ use_preset_vocabulary: false
 😡	efjh.烦
 🇵🇭	eflb.菲律宾
 🌍	efvd.非洲
-🏠	efzv.房子
+🧼	efzb.肥皂	10
+🏠	efzv.房子	90
 👠	eggx.高跟鞋
 ♟	egjq.国际象棋
 🎹	egqw.钢琴
@@ -125,6 +126,7 @@ use_preset_vocabulary: false
 😺	emcq.猫
 🇺🇸	emgk.美国
 🇲🇳	emgu.蒙古
+🌹	emgw.玫瑰
 🇲🇦	emlg.摩洛哥
 🇲🇾	emly.马来西亚
 🚽	emt.马桶
@@ -236,9 +238,11 @@ use_preset_vocabulary: false
 🚬	exyh.吸烟
 🌑	exyk.新月	90
 👢	exz.靴子
-✍🏻	exzb.写字
-🥿	exzv.鞋子
-🦂️	exzv.蝎子
+✍🏻	exzb.写字	30
+🛀	exzd.洗澡	50
+🚿	exzd.洗澡
+🥿	exzv.鞋子	90
+🦂️	exzv.蝎子	10
 🦷	eyaa.牙
 🥮	eybu.月饼
 🇮🇳	eydg.印度
