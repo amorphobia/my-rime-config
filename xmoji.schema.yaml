@@ -32,7 +32,7 @@ engine:
   translators:
     - table_translator
   filters:
-    -uniquifier
+    - uniquifier
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba'

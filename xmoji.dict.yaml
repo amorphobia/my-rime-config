@@ -38,6 +38,7 @@ use_preset_vocabulary: false
 💓	eaq.爱情
 👩‍❤️‍👨	eaq.爱情
 👩‍❤️‍💋‍👨	eaqx.爱情
+🇦🇿	easj.阿塞拜疆
 💗	eax.爱心
 ❤️	eax.爱心
 🧡	eaxd.爱心
@@ -52,12 +53,15 @@ use_preset_vocabulary: false
 🇵🇰	ebjt.巴基斯坦
 🧊	ebkd.冰
 🌰	eblx.板栗
+⚾️	ebq.棒球
+🏒️	ebqw.冰球
 😒	ebu.鄙视
 👎🏻	ebup.鄙视
 🪕	ebvq.班卓琴
 🇧🇷	ebxa.巴西
 👃🏻	ebzv.鼻子
 🌘	ecyk.残月
+🏂	edbm.单板
 🌏	edbq.东半球
 🤏🏻	eydd.一点点
 🍰	edg.蛋糕
@@ -66,10 +70,12 @@ use_preset_vocabulary: false
 # edgm - “二等公民”
 🎂	edgm.蛋糕
 ♣️	echc.草花
+🥈	edem.第二名
 🥚	edjv.蛋
 💡	edpd.灯泡
 🌐	edqw.地球
 🧄	edsc.大蒜
+🥉	edsm.第三名
 🚇	edt.地铁
 🚉	edt.地铁
 🚈	edtj.地铁	10
@@ -78,7 +84,9 @@ use_preset_vocabulary: false
 🦘	eduj.袋鼠
 🌤️	edy.多云
 ⛅️	edy.多云
+☝🏻	edya.第一
 ☁️	edye.多云
+🥇	edym.第一名
 # eed - “额度”，eedj - “鹅蛋”
 👂🏻	eed.耳朵
 🇪🇨	eege.厄瓜多尔
@@ -89,24 +97,29 @@ use_preset_vocabulary: false
 🦹🏻‍♀️	eemy.恶魔	# 特殊
 # eezv - “遏”
 👦🏻	eez.儿子
+🎯	efbj.飞镖
 🇫🇷	efgk.法国
 ⛵️	efiv.帆船
 😡	efjh.烦
 ♦️	efkt.方块
 🇵🇭	eflb.菲律宾
 ♦️	efpp.方片
+🥏	efpv.飞盘
 🍅	efqc.番茄
 🌍	efvd.非洲
+🫁	efwo.肺
 🧼	efzb.肥皂	10
 🏠	efzv.房子	90
 🇨🇺	egbv.古巴
 👠	eggx.高跟鞋
 ♟	egjq.国际象棋
+🏈	eglq.橄榄球
 💿	egp.光盘
 📀	egp.光盘
 💽	egpv.光盘
 🎹	egqw.钢琴
 👏🏻	egvx.鼓掌
+⛸️	ehbd.滑冰
 👌🏻	ehc.好
 🆗	ehcn.好
 🇰🇷	ehgk.韩国
@@ -115,6 +128,7 @@ use_preset_vocabulary: false
 😰	ehjd.汗
 😥	ehjd.汗
 💦	ehjd.汗
+🚀	ehjv.火箭
 🇳🇱	ehlb.荷兰
 🍈	ehmg.哈密瓜
 🔥	ehod.火
@@ -130,6 +144,8 @@ use_preset_vocabulary: false
 🌸	ehxc.花
 🌹	ehxc.花
 ♥️	ehxd.红心
+🧪	ehxx.化学
+⛷️	ehxy.滑雪
 🐒	ehz.猴子
 🐵	ehzv.猴子
 🚗	eie.车
@@ -147,6 +163,7 @@ use_preset_vocabulary: false
 🇰🇵	eixa.朝鲜
 🍊	eiz.橙子
 🔨	eizv.锤子
+🏆	ejbm.奖杯
 🇿🇼	ejbw.津巴布韦
 # ejd - “二季度”
 🕤	ejdb.九点半
@@ -157,12 +174,14 @@ use_preset_vocabulary: false
 😲	ejkx.惊
 ➖	ejmd.减
 ⌨️	ejp.键盘
+🏅️	ejpp.金牌
 🇰🇭	ejpv.柬埔寨
 😳	ejsk.囧
 🎸	ejtr.吉他
 🏠	ejx.家
 ➕	ejxl.加
 🚭	ejyh.禁烟
+🧬	ejyk.基因
 🥟	ejzv.饺子
 🌖	ekty.亏凸月
 😭	eku.哭
@@ -186,6 +205,8 @@ use_preset_vocabulary: false
 🇺🇳	elhg.联合国
 🐺	elhq.狼
 🚢	eliv.轮船
+🏀	elq.篮球
+🥎	elqw.垒球
 # els - “俄罗斯”
 🐉	els.龙
 👂🏻	elsl.聋
@@ -205,6 +226,7 @@ use_preset_vocabulary: false
 🐱	emc.猫
 🐈	emc.猫
 😺	emcq.猫
+🪦	emdt.墓地
 🇺🇸	emgk.美国
 🇲🇳	emgu.蒙古
 🌹	emgw.玫瑰
@@ -217,6 +239,7 @@ use_preset_vocabulary: false
 👩🏻‍	emmn.妈妈
 🦬	emnp.牦牛
 🚽	emt.马桶
+🪵	emt.木头
 ⛵️	emtd.码头
 🐴	emtd.马头
 🦉	emty.猫头鹰
@@ -249,8 +272,12 @@ use_preset_vocabulary: false
 👌🏻	eok.OK
 😯	eook.哦
 🍎	epgl.苹果
+🏓️	eppq.乒乓球
+🏐️	epqw.排球
 🍇	eptc.葡萄
 🇵🇹	epty.葡萄牙
+🧗🏻‍♂️	epy.攀岩
+🧗🏻‍♀️	epye.攀岩
 🕢	eqdb.七点半
 🕖	eqdl.七点
 🚗	eqi.汽车
@@ -289,6 +316,7 @@ use_preset_vocabulary: false
 👩🏻‍🦲	etdd.秃顶
 🦲	etdd.秃顶
 📌	etdj.图钉
+🇹🇷	eteq.土耳其
 🇹🇭	etgk.泰国
 🍬	etgl.糖果
 🦶🏻	etiz.踢
@@ -300,7 +328,9 @@ use_preset_vocabulary: false
 # etw - “耳听为虚，眼见为实”
 💃🏻	etw.跳舞
 🕺🏻	etwp.跳舞
+🪜	etzv.梯子
 ⌚️	eubf.手表
+🎿	eubm.双板
 # eud - “二十多”
 ⚡️	eud.闪电
 🕥	eudb.十点半
@@ -312,15 +342,22 @@ use_preset_vocabulary: false
 😪	eujx.睡觉
 ⏳	eul.沙漏
 ⌛️	euld.沙漏
+# euq - “二十七”
+🤾🏻‍♂️	euq.手球
+🤽🏻‍♂️	euqw.水球
+🤾🏻‍♀️	euqw.手球
+🤽🏻‍♀️	euqw.水球
 🎂	eurk.生日
 🌲	euu.树
 🌳	euu.树
 🌴	euum.树	10
 🧍🏻‍♂️	euuu.叔叔
 📖	euuv.书	90
+🧫	euwx.生物学
 🌓	euxy.上弦月
 🕦	euyb.十一点半
 🕚	euyd.十一点
+🥄	euzv.勺子
 🇨🇳	evgk.中国
 # evru - “恩重如山”
 🧱	evr.砖
@@ -328,7 +365,9 @@ use_preset_vocabulary: false
 🕠	ewdb.五点半
 🕔	ewdl.五点
 🥣	ewju.碗
+⚛️	ewlw.物理
 🥡	ewmu.外卖
+🎾	ewqw.网球
 🤝	ewup.握手
 😊	ewx.微笑
 😃	ewx.微笑
@@ -390,6 +429,7 @@ use_preset_vocabulary: false
 ✍🏻	exzb.写字	30
 🛀	exzd.洗澡	50
 🚿	exzd.洗澡
+🫀	exzo.心脏
 🥿	exzv.鞋子	90
 🦂️	exzv.蝎子	10
 🦷	eyaa.牙
@@ -414,6 +454,9 @@ use_preset_vocabulary: false
 🌙	eylw.月亮	90
 🌝	eylw.月亮	50
 🌜	eylw.月亮	10
+🪶	eymp.羽毛
+🏸️	eymq.羽毛球
+🇦🇲	eymy.亚美尼亚
 🇻🇳	eynu.越南
 🪕	eyqk.乐器
 🌕	eyqw.月球
@@ -436,3 +479,6 @@ use_preset_vocabulary: false
 👄	ezbv.嘴巴
 # ezj - “恶作剧”
 👍🏻	ezjn.赞
+⚽️	ezqw.足球
+🚴🏻	ezx.自行车
+🚴🏻‍♀️	ezxi.自行车
