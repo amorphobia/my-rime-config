@@ -50,6 +50,7 @@ use_preset_vocabulary: false
 🕣	ebdb.八点半
 🇧🇾	ebes.白俄罗斯
 🏨	ebgu.宾馆
+👙	ebjn.比基尼
 🇵🇰	ebjt.巴基斯坦
 🧊	ebkd.冰
 🌰	eblx.板栗
@@ -57,8 +58,10 @@ use_preset_vocabulary: false
 🏒️	ebqw.冰球
 😒	ebu.鄙视
 👎🏻	ebup.鄙视
+💥	ebvh.爆炸
 🪕	ebvq.班卓琴
 🇧🇷	ebxa.巴西
+🙄️	ebyo.白眼
 👃🏻	ebzv.鼻子
 🌘	ecyk.残月
 🏂	edbm.单板
@@ -71,6 +74,7 @@ use_preset_vocabulary: false
 🎂	edgm.蛋糕
 ♣️	echc.草花
 🥈	edem.第二名
+🪢	edjs.打结
 🥚	edjv.蛋
 💡	edpd.灯泡
 🌐	edqw.地球
@@ -138,6 +142,7 @@ use_preset_vocabulary: false
 🍠	ehuc.红薯
 🇲🇪	ehul.黑山
 💤	ehuo.酣睡
+🥜	ehup.花生
 💐	ehx.花
 🌷	ehx.花
 🌼	ehxc.花
@@ -183,6 +188,7 @@ use_preset_vocabulary: false
 🚭	ejyh.禁烟
 🧬	ejyk.基因
 🥟	ejzv.饺子
+🥺	eklx.可怜
 🌖	ekty.亏凸月
 😭	eku.哭
 😎	eku.酷
@@ -246,6 +252,7 @@ use_preset_vocabulary: false
 # emvd - “耳目众多”
 🌎	emv.美洲
 🇲🇽	emxg.墨西哥
+🧶	emxs.毛线
 🌕	emy.满月
 🌒	emyk.眉月
 👧🏻	enep.女儿
@@ -440,6 +447,7 @@ use_preset_vocabulary: false
 🇮🇹	eydl.意大利
 # eyf - “二月份”
 🎵	eyf.音符
+👔	eyfo.衣服
 🎶	eyfv.音符
 🇬🇧	eygk.英国
 🌸	eyhc.樱花
@@ -460,6 +468,8 @@ use_preset_vocabulary: false
 🇻🇳	eynu.越南
 🪕	eyqk.乐器
 🌕	eyqw.月球
+🌂	eys.雨伞
+☂️	eysr.雨伞
 # eyt - “二一添作五”
 ☁️	eyt.阴天
 🌥️	eyta.阴天
