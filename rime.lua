@@ -9,3 +9,4 @@ openfly_time_translator = require("openfly_time_translator")
 
 --   4. filters
 openfly_hint_filter = require("openfly_hint_filter")
+openfly_deletion_filter = require("openfly_deletion_filter")
