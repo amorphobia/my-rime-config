@@ -1,3 +1,10 @@
 patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+    - name: full_shape
+    - name: simplification
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
   key_binder/bindings/+:
     - {accept: semicolon, send: semicolon, when: has_menu} # 恢复分号输入阴平
