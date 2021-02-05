@@ -1,6 +1,9 @@
 patch:
   key_binder:
     import_preset: default
+    bindings/+:
+      - { when: has_menu, accept: minus, send: minus } # 长音
+      - { when: paging, accept: minus, send: Page_Up }
   engine/translators:
     - punct_translator
     - script_translator
