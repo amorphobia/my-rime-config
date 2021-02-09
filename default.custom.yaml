@@ -8,9 +8,12 @@ patch:
     Shift_R: noop
   "key_binder/bindings":
     - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: "Shift+colon", send: 4, when: has_menu}
+    - {accept: "Shift+quotedbl", send: 5, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
-    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: minus, send: Page_Up, when: paging}
     - {accept: equal, send: Page_Down, when: has_menu}
     - {accept: "Shift+space", select: .next, when: always}
     - {accept: "Control+comma", toggle: full_shape, when: always}
