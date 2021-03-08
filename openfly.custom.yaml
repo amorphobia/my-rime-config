@@ -5,8 +5,6 @@ patch:
       reset: 0
     - name: full_shape
     - name: simplification
-      reset: 0
-      states: [ 汉字, 漢字 ]
     - name: ascii_punct
       reset: 0
 

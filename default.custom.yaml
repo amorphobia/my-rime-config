@@ -23,7 +23,12 @@ patch:
     - {schema: openfly}
     - {schema: japanese}
     - {schema: shupin_congqin}
-    - {schema: terra_pinyin}
+    - {schema: luna_pinyin}
   "switcher/hotkeys":
     - "Control+Shift+space"
     - "Alt+space"
+
+__patch:
+  - patch/+:
+      "switcher/save_options/+":
+        - "openfly_enable_2nd_short"
