@@ -7,6 +7,8 @@ patch:
     - name: simplification
     - name: ascii_punct
       reset: 0
+    - name: openfly_enable_2nd_short
+      reset: 1
 
 __patch:
   - patch/+:
