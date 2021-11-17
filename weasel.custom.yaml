@@ -8,3 +8,4 @@ patch:
   "app_options/windowsterminal.exe/ascii_mode": true
   "app_options/fluentterminal.app.exe/ascii_mode": true
   "app_options/remotedesktopmanagerfree.exe/ascii_mode": true
+  "app_options/code.exe/ascii_mode": true
