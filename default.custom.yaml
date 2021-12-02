@@ -24,6 +24,7 @@ patch:
     - {schema: japanese}
     - {schema: shupin_congqin}
     - {schema: luna_pinyin}
+    - {schema: xkjd6}
   "switcher/hotkeys":
     - "Control+Shift+space"
     - "Alt+space"

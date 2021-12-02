@@ -1,0 +1,6 @@
+# encoding: utf-8
+patch:
+  recognizer:
+    import_preset: default
+    patterns:
+      reverse_lookup: "[a-z`]*`+[a-z`]*"
