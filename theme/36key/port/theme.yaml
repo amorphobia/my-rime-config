@@ -15,9 +15,9 @@ style:
   key_height: *keyHeight
   keyboards: [default, .symbols, english, .number]
   text_size: 12 # default 12
-  text_height: 14 # default 20
+  text_height: 0 # default 20
   candidate_text_size: 24 # default 24
-  candidate_view_height: 34 # default 44
+  candidate_view_height: 44 # default 44
   candidate_padding: 14 # default 14
   comment_text_size: 14 # default 14
   comment_height: 16 # default 16
