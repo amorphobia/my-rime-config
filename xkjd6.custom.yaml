@@ -4,3 +4,4 @@ patch:
     import_preset: default
     patterns:
       reverse_lookup: "[a-z`]*`+[a-z`]*"
+  "key_binder/bindings/@next": { when: has_menu, accept: "7", toggle: emoji_cn }
