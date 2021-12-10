@@ -81,9 +81,10 @@ preset_keyboards:
       - {click: m, swipe_up: ".", swipe_down: periodHalf}
       - {width: 3}
       - {click: BackSpace, width: 12}
-      - {click: moreSymbols, width: 14}
-      - {click: numT9, width: 12}
-      - {click: space, width: 42}
+      - {click: moreSymbols, width: 10}
+      - {click: LanguageSwitch, width: 10}
+      - {click: numT9, width: 10}
+      - {click: space, width: 38}
       - {click: english, width: 12}
       - {click: Return, width: 20}
     name: "默认键盘"

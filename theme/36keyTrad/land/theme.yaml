@@ -2,26 +2,22 @@
 # encoding: utf-8
 
 config_version: "1.0"
-name: "36键竖屏"
+name: "36键横屏"
 author: "amorphobia"
 
 preset_values:
-  key_height: &keyHeight 44.8
+  key_height: &keyHeight 24
   vertical_gap: &vertGap 4.8
   horizontal_gap: &horzGap 6.2
   number_key_height: &numKeyHeight 36.4
-  T9_key_height: &T9KeyHeight 52
-  T9_horizontal_gap: &T9HorzGap 6.8
-  T9_vertical_gap: &T9VertGap 9.1
-  T9_return_key_height: &T9ReturnKeyHeight 113.1 # T9KeyHeight * 2 + T9VertGap
 
 style:
   key_height: *keyHeight
-  keyboards: [default, .symbols, english, .number, numT9]
+  keyboards: [default, .symbols, english, .number]
   text_size: 12 # default 12
-  text_height: 0 # default 20
+  text_height: 14 # default 20
   candidate_text_size: 24 # default 24
-  candidate_view_height: 44 # default 44
+  candidate_view_height: 34 # default 44
   candidate_padding: 14 # default 14
   comment_text_size: 14 # default 14
   comment_height: 16 # default 16
@@ -82,42 +78,12 @@ preset_keyboards:
       - {width: 3}
       - {click: BackSpace, width: 12}
       - {click: moreSymbols, width: 14}
-      - {click: numT9, width: 12}
+      - {click: .number, width: 12}
       - {click: space, width: 42}
       - {click: english, width: 12}
       - {click: Return, width: 20}
     name: "默认键盘"
     width: 10
-
-  numT9:
-    ascii_mode: 1
-    author: amorphobia
-    height: *T9KeyHeight
-    horizontal_gap: *T9HorzGap
-    vertical_gap: *T9VertGap
-    keys:
-      - {click: DefaultKeyboard}
-      - {click: 1}
-      - {click: 2}
-      - {click: 3}
-      - {click: BackSpace}
-      - {click: english}
-      - {click: 4}
-      - {click: 5}
-      - {click: 6}
-      - {click: moreSymbols}
-      - {click: left}
-      - {click: 7}
-      - {click: 8}
-      - {click: 9}
-      - {click: Return, height: *T9ReturnKeyHeight}
-      - {width: 0}
-      - {click: right}
-      - {click: periodHalf}
-      - {click: 0}
-      - {click: space}
-    name: "T9 数字键盘"
-    width: 20
 
   english:
     ascii_mode: 1
@@ -170,7 +136,7 @@ preset_keyboards:
       - {width: 3}
       - {click: BackSpace, width: 12}
       - {click: moreSymbols, width: 14}
-      - {click: numT9, width: 12}
+      - {click: .number, width: 12}
       - {click: ., swipe_up: ",", width: 10}
       - {click: space, width: 34}
       - {click: DefaultKeyboard, width: 10}
@@ -188,16 +154,12 @@ preset_keys:
   Shift: {label: Shift, send: Shift_L, sound: "key_press_modifier.caf"}
   Return: {label: Enter, send: Return, sound: "key_press_modifier.caf"}
   BackSpace: {send: BackSpace, sound: "key_press_delete.caf"}
-  LanguageSwitch: {send: LANGUAGE_SWITCH, sound: "key_press_modifier.caf"}
   space: {label: "空格", send: space, sound: "key_press_modifier.caf"}
   english: {label: "abc", send: Eisu_toggle, select: english, sound: "key_press_modifier.caf"}
   .symbols: {label: "更多", send: Eisu_toggle, select: .symbols, sound: "key_press_modifier.caf"}
-  moreSymbols: {label: "ϟ", text: "{.symbols}{DefaultKeyboard}", sound: "key_press_modifier.caf"}
+  moreSymbols: {label: "ϟ12", text: "{.symbols}{DefaultKeyboard}", sound: "key_press_modifier.caf"}
   .number: {label: 123, send: Eisu_toggle, select: .number, sound: "key_press_modifier.caf"}
-  DefaultKeyboard: {label: "ㄓ", send: Eisu_toggle, select: default, sound: "key_press_modifier.caf"}
-  numT9: {label: "123", send: Eisu_toggle, select: numT9, sound: "key_press_modifier.caf"}
-  left: {label: "←", text: "{Left}", sound: "key_press_modifier.caf"}
-  right: {label: "→", text: "{Right}", sound: "key_press_modifier.caf"}
+  DefaultKeyboard: {label: 中, send: Eisu_toggle, select: default, sound: "key_press_modifier.caf"}
   # half width symbols
   exclamationHalf: {label: "!", commit: "!"}
   atHalf: {label: "@", commit: "@"}
