@@ -5,3 +5,12 @@ patch:
     patterns:
       reverse_lookup: "[a-z`]*`+[a-z`]*"
   "key_binder/bindings/@next": { when: has_menu, accept: "7", toggle: emoji_cn }
+  engine/filters:
+    - simplifier
+    - uniquifier
+    - simplifier@emoji_cn
+    - simplifier@jffh
+    - simplifier@EN2en
+    - lua_filter@xkjd6_filter
+    - lua_filter@split
+    - lua_filter@del

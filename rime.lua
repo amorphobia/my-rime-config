@@ -72,3 +72,8 @@ number_translator = require("xnumber")
 
 -- 用 ' 作为次选键
 smart_2 = require("smart_2")
+
+
+-- XKJD6 user scripts
+split = require("split")
+del = require("del")
