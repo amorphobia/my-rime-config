@@ -107,13 +107,14 @@ preset_keyboards:
       - {click: 5}
       - {click: 6}
       - {click: moreSymbols}
-      - {click: left}
+      - {click: left, width: 10}
+      - {click: right, width: 10}
       - {click: 7}
       - {click: 8}
       - {click: 9}
       - {click: Return, height: *T9ReturnKeyHeight}
       - {width: 0}
-      - {click: right}
+      - {click: LanguageSwitch}
       - {click: periodHalf}
       - {click: 0}
       - {click: space}
@@ -170,8 +171,9 @@ preset_keyboards:
       - {click: m, swipe_up: dotCOM, swipe_down: "ₓ"}
       - {width: 3}
       - {click: BackSpace, width: 12}
-      - {click: moreSymbols, width: 14}
-      - {click: numT9, width: 12}
+      - {click: moreSymbols, width: 9}
+      - {click: LanguageSwitch, width: 8}
+      - {click: numT9, width: 9}
       - {click: ., swipe_up: ",", width: 10}
       - {click: space, width: 34}
       - {click: DefaultKeyboard, width: 10}
