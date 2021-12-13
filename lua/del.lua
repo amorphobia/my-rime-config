@@ -1,33 +1,22 @@
--- this filter needs to be put after "split_comment" filter
+local del_words = require("del_words")
+
 local function filter(input, env)
-  -- skip reverse lookup words
-  local skip = env.engine.context.input:sub(1,1) == "`"
-  local candidates = {}
-  local del_text = {}
-  -- to keep remaining candidates in original order
-  local index_text = {}
   for cand in input:iter() do
-    if not skip then
-      table.insert(index_text, cand.text)
-      candidates[cand.text] = cand
+    local inp = env.engine.context.input
+    if cand.type == "completion" then
       local comment = cand:get_genuine().comment
-      local del = string.find(comment, "%[删%]") ~= nil
-      if comment == "[删]" then
-        table.insert(del_text, cand.text)
-      end
-      if cand.type == "completion" and del then
-        table.insert(del_text, cand.text)
-      end
-    else
-      yield(cand)
+      inp = inp .. string.match(comment, "^~(.+)$")
     end
-  end
-  for i, t in pairs(del_text) do
-    candidates[t] = nil
-  end
-  for i, t in pairs(index_text) do
-    if candidates[t] ~= nil then
-      yield(candidates[t])
+    local del = false
+    if del_words[inp] then
+      for _,w in pairs(del_words[inp]) do
+        if cand.text == w then
+          del = true
+        end
+      end
+    end
+    if not del then
+      yield(cand)
     end
   end
 end
