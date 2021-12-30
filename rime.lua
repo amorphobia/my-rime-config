@@ -77,3 +77,7 @@ smart_2 = require("smart_2")
 -- XKJD6 user scripts
 split = require("split")
 del = require("del")
+
+
+-- quad
+quad_filter = require("quad_filter")

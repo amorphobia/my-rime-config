@@ -20,11 +20,12 @@ patch:
     - {accept: "Control+period", toggle: ascii_punct, when: always}
     - {accept: "Control+semicolon", toggle: simplification, when: always}
   schema_list:
-    - {schema: openfly}
+    - {schema: xkjd6}
     - {schema: japanese}
     - {schema: shupin_congqin}
     - {schema: luna_pinyin}
-    - {schema: xkjd6}
+    - {schema: quad}
+    - {schema: openfly}
   "switcher/hotkeys":
     - "Control+Shift+space"
     - "Alt+space"
