@@ -14,3 +14,4 @@ patch:
     - lua_filter@xkjd6_filter
     - lua_filter@split
     - lua_filter@del
+  emoji_cn/opencc_config: emoji_cn.json

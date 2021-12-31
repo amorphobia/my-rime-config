@@ -7,10 +7,6 @@ patch:
     Shift_L: commit_code
     Shift_R: noop
   "key_binder/bindings":
-    - {accept: semicolon, send: 2, when: has_menu}
-    - {accept: apostrophe, send: 3, when: has_menu}
-    - {accept: "Shift+colon", send: 4, when: has_menu}
-    - {accept: "Shift+quotedbl", send: 5, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
     - {accept: minus, send: Page_Up, when: paging}
@@ -18,20 +14,13 @@ patch:
     - {accept: "Shift+space", select: .next, when: always}
     - {accept: "Control+comma", toggle: full_shape, when: always}
     - {accept: "Control+period", toggle: ascii_punct, when: always}
-    - {accept: "Control+semicolon", toggle: simplification, when: always}
   schema_list:
     - {schema: xkjd6}
+    - {schema: clover}
     - {schema: japanese}
     - {schema: shupin_congqin}
-    - {schema: luna_pinyin}
     - {schema: quad}
-    - {schema: openfly}
   "switcher/hotkeys":
     - "Control+Shift+space"
     - "Alt+space"
     - "Control+quoteright"
-
-__patch:
-  - patch/+:
-      "switcher/save_options/+":
-        - "openfly_enable_2nd_short"
