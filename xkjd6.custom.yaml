@@ -15,3 +15,4 @@ patch:
     - lua_filter@split
     - lua_filter@del
   emoji_cn/opencc_config: emoji_cn.json
+  style/theme_name: xkjd
