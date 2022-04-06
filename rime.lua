@@ -1,6 +1,5 @@
 -- XKJD6 lua engines
-date_translator = require("date")
-time_translator = require("time")
+date_time_translator = require("date_time")
 xkjd6_filter = require("xkjd6_filter")
 
 -- XKJD6 user lua engines
