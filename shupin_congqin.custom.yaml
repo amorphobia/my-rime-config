@@ -12,6 +12,7 @@ patch:
     - xform/◎.+$//
     - xform/Ddi/le/
     - xform/Dqu4/qie4/
+    - xform/Xkai3/kai3/
     - derive/([dtlzcs])un/$1en/
     - xform/^([jqx])u5$/$1uu5/
     - xform/^([zcs])v5$/$1vu5/
@@ -54,6 +55,7 @@ patch:
   translator/comment_format:
     - xform/Ddi/le/
     - xform/Dqu4/qie4/
+    - xform/Xkai3/kai3/
     - derive/([dtlzcs])un/$1en/
     - xform/^([jqx])u5($|(◎.+$))/$1uu5$2/
     - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/
@@ -125,31 +127,32 @@ patch:
   reverse_lookup/comment_format:
     - xform/Ddi/le/
     - xform/Dqu4/qie4/
+    - xform/Xkai3/kai3/
     - derive/([dtlzcs])un/$1en/
-    - xform/^([jqx])u5($|(◎.+$))/$1uu5$2/
-    - xform/^([zcs])v5($|(◎.+$))/$1vu5$2/
-    - xform/^([zcs])u5($|(◎.+$))/$1vu5$2/
-    - xform/^yu5($|(◎.+$))/yvu5$1/
+    - xform/(^|\ )([jqx])u5($|(◎.+$))/$1$2uu5$3/
+    - xform/(^|\ )([zcs])v5($|(◎.+$))/$1$2vu5$3/
+    - xform/(^|\ )([zcs])u5($|(◎.+$))/$1$2vu5$3/
+    - xform/(^|\ )yu5($|(◎.+$))/$1yvu5$2/
     - xform/eo([1234])$/o$1/
     - xform/eo5/o5/
     - xform/5($|(◎.+$))/2$1/
-    - xform/^ni/li/
-    - xform/^nv/lv/
-    - xform/^lv2/lu2/ # 重庆话中 lü̂ 派入 lû
-    - xform/^lv4/lui4/ # 重庆话中 lǘ 派入 luí
-    - xform/^zyi/ji/
-    - xform/^cyi/qi/
-    - xform/^syi/xi/
-    - xform/^zi([a-z]+)/ji$1/
-    - xform/^ci([a-z]+)/qi$1/
-    - xform/^si([a-z]+)/xi$1/
-    - xform/^zv/ju/
-    - xform/^cv/qu/
-    - xform/^sv/xu/
-    - xform/^sv/xu/
-    - xform/^yv/yu/
-    - xform/^([zcs])h/$1/
-    - xform/^hu([12345])$/fu$1/
+    - xform/(^|\ )ni/$1li/
+    - xform/(^|\ )nv/$1lv/
+    - xform/(^|\ )lv2/$1lu2/ # 重庆话中 lü̂ 派入 lû
+    - xform/(^|\ )lv4/$1lui4/ # 重庆话中 lǘ 派入 luí
+    - xform/(^|\ )zyi/$1ji/
+    - xform/(^|\ )cyi/$1qi/
+    - xform/(^|\ )syi/$1xi/
+    - xform/(^|\ )zi([a-z]+)/$1ji$2/
+    - xform/(^|\ )ci([a-z]+)/$1qi$2/
+    - xform/(^|\ )si([a-z]+)/$1xi$2/
+    - xform/(^|\ )zv/$1ju/
+    - xform/(^|\ )cv/$1qu/
+    - xform/(^|\ )sv/$1xu/
+    - xform/(^|\ )sv/$1xu/
+    - xform/(^|\ )yv/$1yu/
+    - xform/(^|\ )([zcs])h/$1$2/
+    - xform/(^|\ )hu([12345])$/$1fu$2/
     - xform/^(.*)$/〔$1〕
     - xform ([aeiouv])(ng?|r)([1234q]) $1$3$2
     - xform ([aeo])([iuo])([1234q]) $1$3$2
@@ -187,3 +190,4 @@ patch:
     - xform ü5 ǚ
     - xform/([a-z]+)/$1/
     - xform/(◎.+)〕/〕$1/
+    - xform/[A-Z][^\ ]+[\ $]//
