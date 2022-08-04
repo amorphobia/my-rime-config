@@ -1,7 +1,7 @@
 patch:
   "style/color_scheme": cool_breeze
-  "style/font_point": 12
-  "style/font_face": "思源黑体 Light"
+  "style/font_point": 16
+  "style/font_face": "思源黑体 Medium"
   "style/inline_preedit": true
   "app_options/terminus.exe/ascii_mode": true
   "app_options/mintty.exe/ascii_mode": true
