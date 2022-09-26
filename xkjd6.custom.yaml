@@ -1,19 +1,5 @@
 # encoding: utf-8
 patch:
-  recognizer:
-    import_preset: default
-    patterns:
-      reverse_lookup: "[a-z`]*`+[a-z`]*"
-      punct: '^/([0-9]0?|[A-Za-z]+)$'
   "key_binder/bindings/@next": { when: has_menu, accept: "7", toggle: emoji_cn }
-  engine/filters:
-    - simplifier
-    - uniquifier
-    - simplifier@emoji_cn
-    - simplifier@jffh
-    - simplifier@EN2en
-    - lua_filter@xkjd6_filter
-    - lua_filter@split
-    - lua_filter@del
   emoji_cn/opencc_config: emoji_cn.json
   style/theme_name: xkjd
