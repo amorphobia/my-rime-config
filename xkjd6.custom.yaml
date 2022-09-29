@@ -1,5 +1,6 @@
 # encoding: utf-8
 patch:
   "key_binder/bindings/@next": { when: has_menu, accept: "7", toggle: emoji_cn }
+  "engine/filters/@next": "lua_filter@split"
   emoji_cn/opencc_config: emoji_cn.json
   style/theme_name: xkjd
