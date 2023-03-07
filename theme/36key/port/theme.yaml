@@ -96,8 +96,7 @@ preset_keyboards:
     horizontal_gap: *T9HorzGap
     vertical_gap: *T9VertGap
     keys:
-      - {click: DefaultKeyboard, width: 10}
-      - {click: moreSymbols, width: 10}
+      - {click: DefaultKeyboard}
       - {click: 1}
       - {click: 2}
       - {click: 3}
@@ -109,16 +108,17 @@ preset_keyboards:
       - {click: 6}
       - {click: english}
       - {click: numT9Multiply, width: 10}
-      - {click: numT9devide, width: 10}
+      - {click: numT9Devide, width: 10}
       - {click: 7}
       - {click: 8}
       - {click: 9}
       - {click: Return, height: *T9ReturnKeyHeight}
       - {width: 0}
       - {click: numT9Equal}
-      - {click: periodHalf}
-      - {click: 0}
-      - {click: space}
+      - {click: periodHalf, width: 11}
+      - {click: ":", width: 11}
+      - {click: 0, width: 16}
+      - {click: space, width: 22}
     name: "T9 数字键盘"
     width: 20
 
@@ -230,4 +230,4 @@ preset_keys:
   numT9Plus: {label: "+", send: DarkSpecialCharacter, sound: "key_press_modifier.caf"}
   numT9Minus: {label: "-", send: DarkSpecialCharacter, sound: "key_press_modifier.caf"}
   numT9Multiply: {label: "*", send: DarkSpecialCharacter, sound: "key_press_modifier.caf"}
-  numT9devide: {label: "/", send: DarkSpecialCharacter, sound: "key_press_modifier.caf"}
+  numT9Devide: {label: "/", send: DarkSpecialCharacter, sound: "key_press_modifier.caf"}
