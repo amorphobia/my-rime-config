@@ -3,4 +3,5 @@ patch:
   "key_binder/bindings/@next": { when: has_menu, accept: "7", toggle: emoji_cn }
   "engine/filters/@next": "lua_filter@split"
   emoji_cn/opencc_config: emoji_cn.json
+  custom_phrase/user_dict: user_dict
   style/theme_name: xkjd
