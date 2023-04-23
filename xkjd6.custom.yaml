@@ -5,4 +5,4 @@ patch:
   emoji_cn/opencc_config: emoji_cn.json
   custom_phrase/user_dict: user_dict
   schema/name: ⭐星空键道
-  style/theme_name: xkjd
+  speller/auto_select: false
