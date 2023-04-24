@@ -1,7 +1,9 @@
 # encoding: utf-8
 patch:
   "key_binder/bindings/@next": { when: has_menu, accept: "7", toggle: emoji_cn }
-  "engine/filters/@next": "lua_filter@split"
+  "engine/filters/+": 
+    - lua_filter@split
+    - lua_filter@preedit_filter
   emoji_cn/opencc_config: emoji_cn.json
   custom_phrase/user_dict: user_dict
   schema/name: ⭐星空键道
